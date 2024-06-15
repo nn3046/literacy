@@ -1,46 +1,48 @@
-<!DOCTYPE html>
-<html
-lang="en">
-<title>table copy</title>
-  
-table, th, td {border: 1px #000000 solid;}
-<table>
-  <caption>
-    Front-end web developer course 2021
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Person</th>
-      <th scope="col">Most interest in</th>
-      <th scope="col">Age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Chris</th>
-      <td>HTML tables</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th scope="row">Dennis</th>
-      <td>Web accessibility</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <th scope="row">Sarah</th>
-      <td>JavaScript frameworks</td>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th scope="row">Karen</th>
-      <td>Web performance</td>
-      <td>36</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row" colspan="2">Average age</th>
-      <td>33</td>
-    </tr>
-  </tfoot>
-</table>
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Table</title>
+    <style>
+        /* スタイルは必須ではありませんが、見栄えを整えるために追加します */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sample Table</h2>
+    <table>
+        <tr>
+            <th>名前</th>
+            <th>年齢</th>
+            <th>都道府県</th>
+        </tr>
+        <tr>
+            <td>太郎</td>
+            <td>25</td>
+            <td>東京都</td>
+        </tr>
+        <tr>
+            <td>花子</td>
+            <td>30</td>
+            <td>大阪府</td>
+        </tr>
+        <tr>
+            <td>次郎</td>
+            <td>22</td>
+            <td>福岡県</td>
+        </tr>
+    </table>
+</body>
+</html>
